@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Counter</string>
+    <string name="counter">Counter</string>
+    <string name="count">count</string>
+    <string name="hello">Hello!</string>
+    <string name="_0000">0000</string>
+</resources>
