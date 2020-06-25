@@ -15,9 +15,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    int number = 0;
+
     @SuppressLint("DefaultLocale")
     public void count(View view) {
-        int number = 0;
+
         number++;
         TextView textView = (TextView) findViewById(R.id.textView);
         textView.setText(String.format("%04d", number));
