@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
     @SuppressLint("DefaultLocale")
     public void count(View view) {
-
         number++;
         TextView textView = (TextView) findViewById(R.id.textView);
         textView.setText(String.format("%04d", number));
